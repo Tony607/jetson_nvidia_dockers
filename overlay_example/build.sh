@@ -2,7 +2,7 @@
 set -xe
 podman pull docker.io/zcw607/jetson:0.1.0
 IMAGE=docker.io/zcw607/jetson
-VERSION=r1.0.0
+VERSION=r1.0.1
 BUILD_ONLY=0
 DOCKER_FILE=./Dockerfile
 while test $# -gt 0; do
