@@ -1,7 +1,7 @@
 #!/bin/bash
 set -xe
-podman pull zcw607/jetson:0.1.0
-IMAGE=zcw607/jetson
+podman pull docker.io/zcw607/jetson:0.1.0
+IMAGE=docker.io/zcw607/jetson
 VERSION=r1.0.0
 BUILD_ONLY=0
 DOCKER_FILE=./Dockerfile

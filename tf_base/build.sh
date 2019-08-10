@@ -1,7 +1,7 @@
 #!/bin/bash
 set -xe
 podman pull nvcr.io/nvidia/l4t-base:r32.2
-IMAGE=zcw607/jetson
+IMAGE=docker.io/zcw607/jetson
 VERSION=0.1.0
 BUILD_ONLY=0
 DOCKER_FILE=./Dockerfile
